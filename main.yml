@@ -1,0 +1,5 @@
+- name: Extract Project Zip
+        run: unzip earn_money_yt.zip # Yahan apni zip file ka sahi naam likho
+      
+      - name: Move files to root
+        run: mv earn_money_yt/* . # Agar zip ke andar aik aur folder hai toh
