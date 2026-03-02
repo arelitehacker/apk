@@ -1,6 +1,5 @@
 name: Flutter Build APK
-on: [push] # Jab bhi tum 'Save' karke Push karoge, ye shuru ho jayega
-
+on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
