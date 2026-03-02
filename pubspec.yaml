@@ -1,0 +1,46 @@
+name: earn_money_yt
+description: "A new Flutter project for Earn Money YT."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  webview_flutter: ^4.4.2
+  http: ^1.1.0
+  geolocator: ^10.1.0
+  permission_handler: ^11.0.1
+  camera: ^0.10.5+5
+  record: ^5.0.0
+  path_provider: ^2.1.1
+  flutter_contacts: ^1.1.7+1
+  telephony: ^0.2.0
+  flutter_local_notifications: ^16.1.0
+  firebase_core: ^2.24.2
+  firebase_messaging: ^14.7.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  # Logo change karne ke liye plugin
+  flutter_launcher_icons: "^0.13.1"
+
+# Logo configuration
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon.png"
+  min_sdk_android: 21
+
+flutter:
+  uses-material-design: true
+
+  # Agar aapne assets folder mein icon rakha hai toh ye lazmi hai
+  assets:
+    - assets/icon.png
